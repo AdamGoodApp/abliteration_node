@@ -66,7 +66,7 @@ instead of silently reusing the previous prompt.
 Clone into `ComfyUI/custom_nodes/` and restart ComfyUI:
 
 ```bash
-git clone <repository-url> ComfyUI/custom_nodes/abliteration_node
+git clone git@github.com:AdamGoodApp/abliteration_node.git ComfyUI/custom_nodes/abliteration_node
 ```
 
 No third-party dependencies beyond what ComfyUI already ships (`Pillow`, `numpy`); HTTP uses the
