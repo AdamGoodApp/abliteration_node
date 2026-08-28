@@ -4,3 +4,12 @@ description = "ComfyUI node for the abliteration.ai OpenAI-compatible inference 
 version = "1.0.0"
 license = {file = "LICENSE"}
 dependencies = ["Pillow", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/adamgoodapp/abliteration_node"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "adamgoodapp"
+DisplayName = "abliteration_node"
+Icon = ""
