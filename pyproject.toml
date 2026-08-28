@@ -1,0 +1,6 @@
+[project]
+name = "abliteration_node"
+description = "ComfyUI node for the abliteration.ai OpenAI-compatible inference API. Streams replies token-by-token over the ComfyUI websocket and hard-fails on truncated or filtered output instead of forwarding damaged text downstream."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["Pillow", "numpy"]
